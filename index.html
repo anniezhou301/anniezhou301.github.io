@@ -252,21 +252,8 @@ transition-duration: 1s;
 
     <!-- Custom Theme JavaScript -->
     <script src="freelancer.js"></script>
-<script>
-$(document).ready(function(){       
-   var scroll_start = 0;
-   var startchange = $('#colors');
-   var offset = startchange.offset();
-   $(document).scroll(function() { 
-      scroll_start = $(this).scrollTop();
-      if(scroll_start > offset.top) {
-          $('#colors').css('background-color', 'rgba(34,34,34,0.9)');
-       } else {
-          $('#colors').css('background-color', 'transparent');
-       }
-   });
-});
-/script>
+<script src="easing.js></script>
+
 </body>
 
 </html>
