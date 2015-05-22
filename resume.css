@@ -1,0 +1,134 @@
+.btn-circle {
+	width: 70px;
+	height: 70px;
+	margin-top: 15px;
+	padding: 7px 16px;
+	border: 2px solid #fff;
+	border-radius: 35px;
+	font-size: 40px;
+	color: #fff;
+	background: 0 0;
+	-webkit-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+.small-caps {
+  font-variant: small-caps;
+}
+
+.center {
+  text-align: center;
+}
+
+.no-select {
+  user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.myButton {
+  background-color:#ffffff;
+  -moz-border-radius:16px;
+  -webkit-border-radius:16px;
+  border-radius:16px;
+  display:inline-block;
+  cursor:pointer;
+  color:#0d85d6;
+  font-family:Verdana;
+  font-size:17px;
+  
+  padding:7px 17px;
+  text-decoration:none;
+}
+.myButton:hover {
+  background-color:#d7e7f7;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+        
+
+#panel1 {
+  padding-top: 0px;
+  width: 100%;
+  min-height: 100%;
+  display: table;
+  overflow-x: hidden;
+}
+
+#panel1 #content {
+  padding: 30px;
+  font-variant: small-caps;
+  text-align: center;
+  
+  vertical-align: middle;
+  color: white;
+}
+
+#panel1 #content h2 {
+  font-size: 64px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  text-align: center;
+}
+
+#panel1 #content #items {
+  text-align: center;
+}
+
+#panel1 #content #items h3 {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px;
+  padding: 20px;
+  width: 100px;
+  height: auto;
+}
+
+
+.bannerPart{
+  height:100%;
+  overflow:hidden;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  width: auto;
+  height: auto;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.bgwidth{
+  width:100%
+}
+
+.bgheight{
+  height:100%
+}
+
+.bannerPart{
+  background:#111
+}
+
+.bannerPart img{
+  opacity:.2;
+  filter:alpha(opacity=20);
+}
