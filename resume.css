@@ -111,3 +111,72 @@
   opacity:.2;
   filter:alpha(opacity=20);
 }
+#header {
+ 	background-color: #333;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px solid black;
+	color: white;
+ }
+
+.navcolor a {
+	text-decoration: none;
+}
+
+.navcolor a:visited { 
+	color: #FFF;
+}
+
+.navcolor a:hover {
+	color:black;
+}
+
+.navbar-custom {
+	margin-bottom: 0;
+	border-bottom: 1px solid white;
+	background-color: #FFF;
+ }
+ 
+@media(min-width:767px) {
+	.navbar {
+		padding: 20px 0;
+		border-bottom: 0;
+		background: 0 0;
+	}
+ 
+	.top-nav-collapse {
+		padding: 0;
+		background-color: #666;
+	}
+ 
+	.navbar-custom.top-nav-collapse {
+		border-bottom: 1px solid white;
+	}
+ }
+ 
+ .navbar-custom .navbar-brand:focus {
+	outline: 0;
+ }
+ 
+ .navbar-custom .navbar-brand .navbar-toggle {
+	padding: 4px 6px;
+	font-size: 16px;
+	color: #FFF;
+}
+ 
+ .navbar-custom a {
+	color: #FFF;
+ }
+ 
+
+
+
+
+
+
+ 
