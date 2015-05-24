@@ -5,8 +5,7 @@
 	padding: 7px 16px;
 	border: 2px solid #fff;
 	border-radius: 35px;
-	font-size: 20px;
-	font-family: Arial;
+	font-size: 40px;
 	color: #fff;
 	background: 0 0;
 	-webkit-transition: background .3s ease-in-out;
@@ -31,7 +30,13 @@
   -webkit-user-select: none;
 }
 
-        
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  #panel1 #content #down-button {
+  background: url(icon.png);
+  background-size: cover;
+  }
+}
+
 
 #panel1 {
   padding-top: 0px;
@@ -111,35 +116,103 @@
   opacity:.2;
   filter:alpha(opacity=20);
 }
-#panel1 #content #down-button {
-  width: 40px;
-  height: 40px;
-  margin: auto;
-  transition: opacity 0.4s ease-in-out;
-  -o-transition: opacity 0.4s ease-in-out;
-  -ms-transition: opacity 0.4s ease-in-out;
-  -moz-transition: opacity 0.4s ease-in-out;
-  -webkit-transition: opacity 0.4s ease-in-out;
-  margin: 50px auto 0px auto;
-  background: url(../images/chevron.png);
-  background-size: cover;
-  display: block;
-  opacity: 1.0;
+
+.about-container {
+  background: #E5E5E5;
+  color: black;
+  font-size: 20px;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  #panel1 #content #down-button {
-	background: url(../images/chevron@2x.png);
-	background-size: cover;
-  }
+.aboutme-header {
+  text-align: center;
+  font-size: 50px;
+  font-family: "ruda", 'Open Sans', 'Nunito', sans-serif, serif;
 }
 
-#panel1 #content #down-button:hover {
-  opacity: 0.8;
+.me {
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-p{
-	font-size: 20px;
-	font-family: Arial;
-	color: #fff;
+.center {
+  text-align: center;
+}
+
+.about-info {
+  font-size: 15px;
+}
+
+.hs {
+  
+  width: 500px;
+  height: auto;
+
+}
+
+.code{
+ 
+  width: 350px;
+  height: auto;
+ 
+}
+
+.kumon{
+  
+  width: 500px;
+  height: auto;
+  
+}
+
+.chinese{
+  
+  width: 300px;
+  height: auto;
+
+}
+.exp-container {
+  
+  color: white;
+ 
+  font-size: 15px;
+  font-family: "ruda", 'Open Sans', 'Nunito', sans-serif, serif;
+  width: 100%;
+  height: auto;
+}
+
+.skill-container {
+  background: #FAFAFA;
+  color: black;
+ 
+  font-size: 15px;
+  font-family: "ruda", 'Open Sans', 'Nunito', sans-serif, serif;
+  width: 100%;
+  height: auto;
+}
+
+.activities-container {
+  color: white;
+  
+  font-size: 15px;
+  font-family: "ruda", 'Open Sans', 'Nunito', sans-serif, serif;
+  width: 100%;
+  height: auto;
+}
+.contact-container {
+  background: #FAFAFA;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-family: "ruda", 'Open Sans', 'Nunito', sans-serif, serif;
+  width: 100%;
+  height: auto;
 }
