@@ -13,6 +13,22 @@
 	transition: background .3s ease-in-out;
 }
 
+body {
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-color: #fff;
+	webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 35px;
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	letter-spacing: 1px;
+}
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 .small-caps {
