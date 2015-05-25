@@ -13,7 +13,8 @@
 	transition: background .3s ease-in-out;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 .small-caps {
   font-variant: small-caps;
 }
@@ -126,7 +127,7 @@
 .aboutme-header {
   text-align: center;
   font-size: 50px;
-  font-family: "Abel", 'Open Sans', 'Nunito', sans-serif, serif;
+  font-family: 'Open Sans', 'Nunito', sans-serif, serif;
 }
 
 .me {
@@ -184,7 +185,7 @@
   color: white;
  
   font-size: 15px;
-  font-family: "Abel", 'Open Sans', 'Nunito', sans-serif, serif;
+  font-family: 'Open Sans', 'Nunito', sans-serif, serif;
   width: 100%;
   height: auto;
 }
@@ -194,7 +195,7 @@
   color: black;
  
   font-size: 15px;
-  font-family: "Abel", 'Open Sans', 'Nunito', sans-serif, serif;
+  font-family: 'Open Sans', 'Nunito', sans-serif, serif;
   width: 100%;
   height: auto;
 }
@@ -203,7 +204,7 @@
   color: white;
   
   font-size: 15px;
-  font-family: "Abel", 'Open Sans', 'Nunito', sans-serif, serif;
+  font-family: 'Open Sans', 'Nunito', sans-serif, serif;
   width: 100%;
   height: auto;
 }
@@ -212,7 +213,7 @@
   color: black;
   text-align: center;
   font-size: 15px;
-  font-family: "Abel", 'Open Sans', 'Nunito', sans-serif, serif;
+  font-family: 'Open Sans', 'Nunito', sans-serif, serif;
   width: 100%;
   height: auto;
 }
