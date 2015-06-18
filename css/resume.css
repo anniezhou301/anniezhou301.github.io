@@ -206,7 +206,11 @@ h6 {
     text-align: center;
     padding: 20px;
     margin-left: 15px;
+<<<<<<< HEAD
     box-shadow: 2px 2px 20px #CCF5FF;
+=======
+    box-shadow: 2px 2px 20px #4242f4;
+>>>>>>> origin/master
     margin: 0;
 
 }
