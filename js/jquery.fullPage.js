@@ -5,6 +5,7 @@
  *
  * Copyright (C) 2015 alvarotrigo.com - A project by Alvaro Trigo
  */
+
 (function(global, factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
@@ -2441,4 +2442,5 @@
             console && console[type] && console[type]('fullPage: ' + text);
         }
     };
+
 });
