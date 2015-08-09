@@ -1,290 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Annie Zhou</title>
+		<title>Annie Zhou - Freelance Web Design and Development</title>
 		<meta name="viewport" content="width=device-width, maximum-scale=1.0">
+		<meta name="description" content="Personal Resume Website for my Freelance Web Design and Devlopment services. My websites are cheap yet effective.">
+		<meta name="keywords"  content="freelance, web design, web development, cheap">
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+		<link rel="stylesheet" type="text/css" href="css/actual.css" />		
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+		<link type="text/css" rel="stylesheet" href="css/percentage.css"/>
+		<link href='//fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/vendors/jquery.slimscroll.min.js"></script>
+		<script type="text/javascript" src="js/vendors/jquery.easings.min.js"></script>
+		<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+		<script type="text/javascript" src="js/examples.js"></script>
+		<script type="text/javascript" src="js/percentage.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({			
+				css3: true
+				});
+		});
 
-		<link type="text/css" rel="stylesheet" href="css/resume.css"> 
-		<link type="text/css" rel="stylesheet" href="css/animate.css"> 
-		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+		</script>
+		<script>
 
-		<link type="text/css" rel="stylesheet" href="resume.css"> 
-		<link type="text/css" rel="stylesheet" href="animate.css"> 
-		<link type="text/css" rel="stylesheet" href="bootstrap.min.css">
-		<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+		$(document).ready(function(){
+			$('label').click(function(){
 
+			var total = 0;
+
+			$('.option:checked').each(function(){
+				total+=parseInt($(this).val());
+			});
+			$('#total').html('$'+ total);
+		});
+		});
+		</script>
 	</head>
 	<body>
-		<nav class="navbar navbar-default navbar-fixed-top " role="navigation">
+	
+<div id="fullpage">
+	
+	<div class="section" id="section1">
+	    <div class="slide" id="about">
+			<div class="intro">
+				
+		<div class="container">
+
+ 			<div class="row">
+ 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+ 			
+    		<h1>Annie Zhou</h1>
+    		
+    		<img src="img/profile.png" width="200px" height="auto"></div>
+		
+ 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+ 					<br><br><br><br>
+ 				<p>I'm currently a junior at Union County Magnet High School. I'm highly involved in math league, captain of Science Olympiad, and co-founder of programming club at my school. </p>
+ 					<br>
+ 				<p>I can provide responsive design, on-page SEO, and beautiful user interface for a fraction of the usual price.</p>
+			</div> 		
+		</div></div></div></div>
+
+	    <div class="slide" id="portfolio">
+			<h1>Portfolio</h1>
+			<a href="hackuc.com"><img class="site" src="img/fixed.png"></a>
+		</div>
+		<div class="slide" id="price">
+			<div class="container">
+
+ 			<div class="row">
+ 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<h1>Price Calculator</h1>
+			<p>My price is much cheaper than you'll find anywhere else. Most simple custom-designed sites cost from $1,000 to $10,000. <br>Complex sites can go up to $25,000. A typical small business site usually costs $2,000 to $6,000.</p>
+</div>
+		</div></div>
+		<br><br>
+			<div class="container">
+
+ 			<div class="row">
+ 			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+ 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<label><input type="checkbox" class="option" value="500"/><p class="left"> &nbsp;  4 Pages or less (Every extra page after will be $100 more)</p></label>
+<label><input type="checkbox" class="option" value="200"/><p class="left"> &nbsp;  Responsive Design<br></p></label>
+<label><input type="checkbox" class="option" value="200"/><p class="left"> &nbsp;  SEO Integration<br></p></label>
+<label><input type="checkbox" class="option" value="1000"/><p class="left"> &nbsp;  Custom Design<br></p></label>
+<br>
+			<h3>Total:</h3><div id="total">$0</div>
+			</div>
+		</div>
+	</div>
+		</div>
+		<div class="slide" id="contact">
+			<h1>Contact Me</h1>
+
+				<br>
+				<p>I am looking for freelance work or an internship right now. </p><br><a href="https://anniezhou301.github.io/AnnieZhou.pdf"> <img class="small" src="img/r.png"> </a><p>     Resume as a PDF file</p>	<br><br><p>If you're interested, feel free to contact me at<br><br><a href="mailto:anniezhou301@gmail.com"><img class="small" src="img/mail.png"></a>     anniezhou301@gmail.com</p>
+				
+		</div>
+	</div>
+</div>
+
+		<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
   			<div class="container-fluid">
     
-    		<div class="navbar-header">
-      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-		        <span class="sr-only"></span>
-	        	<span class="icon-bar"></span>
-    	    	<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span>
-      			</button>
-    			<a class="navbar-brand" href="#"><strong>Annie Zhou</strong></a>
-		    </div>
-
   
 	    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       
-			    <ul class="nav navbar-nav navbar-right">
+			    <ul class="nav navbar-nav navbar-center">
         		<li><a href="#about">About</a></li>
     	   		<li><a href="#portfolio">Portfolio</a></li>
-		       	
-    	   		
-    	   		<li><a href="#contact">Contact Me</a></li>
+		       	<li><a href="#price">Get a Price</a></li>	   		
+    	   		<li><a href="#contact">Contact</a></li>
       
-	        	</li>
     	  		</ul>
     		</div>
 	 	 	</div>
 		</nav>
 
-    
-		<div class="bannerPart">
-			<img alt="" class="bannerImg" src="images/blue.jpg">
-		</div>
-		<div id="panel1">
-			<a id="top"></a>
-			<div id="content">
-				
-				<br>
-				<br>
-				<div class="wow fadeIn" data-wow-duration="2s">
-					
-						<h2>ANNIE ZHOU</h2>
-					
-				</div>
-				<br>
-				<br><br><br><br>
-				<span class="wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
-					<img src="images/profile.png" height="auto" width="150px">
-						
-				</span>
-				<br>
-				<br><br><br><br><br><br>				
-				
-				<br>
-				<div class="wow fadeIn" data-wow-delay="2s" data-wow-duration="1s">
-					<a href="#about">
-						<i class="down-button animated"><img src="images/down.png" height="auto" width="100px"></i>
-
-					</a>
-					
-				</div>
-			</div>
-		</div>
-		<br><br><br><br><br>
 
 
-
-		<div class="about-container" id="about">
-			<div class="container">
-			<div class="wow fadeIn">
-				<br><br>
-					<h1 class="aboutme-header">About Me</h1>
-				</div>
-				<div class="wow fadeIn" data-wow-duration="1s">
-				
-				</div>
-				<br>
-				<br>
-				<div class="wow fadeIn" data-wow-duration="1s">
-					<div class="row exCon">
-						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-					
-					<img class="img-responsive hs" src="images/hs.png" width="100%">
-					
-						</div>
-						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-				
-					<h5 class="description">
-						<br>
-						<br>
-						I'm currently a junior at Union County Magnet High School, specializing in Engineering. 
-						<br>
-						<br>
-					</h5>
-						</div>
-					</div>
-				</div>
-				
-					<br>
-				
-				<div class="wow fadeIn" data-wow-duration="1s">
-				<div class="row exCon">
-					
-					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-						
-						 <h5 class="description"><br>I love math, science, and programming, and enjoy reading in my free time.<br>
-						 I'm always willing to learn something new, and constantly trying to find ways to challenge myself. <br> </h5>
-
-					</div>
-					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-						<img class="code img-responsive" src="images/code.png">
-					</div>
-					<br>
-				</div>
-				<br>
-				
-				</div></div>
-					<br><br><br><br><br><br>
-				
-			</div>
-		</div>
-	</div>
-
-
-<!--
-		<div class="exp-container" id="experience">
-			<br>
-			<br>
-			<br>
-			<br>
-			<div class="container">
-				<div class="wow fadeIn">
-					<h1 class="work">Work Experience</h1>
-				</div>
-				<br><br>
-				
-				<div class="wow fadeIn" data-wow-duration="1s">
-					<div class="row">
-					<div class="col-xs-6">
-					<ul><strong>Kumon</strong>
-						<li>From 2015 to Present</li>
-						<li>Teach little children math and english</li>
-						<li>accomplishments? uhh Have only been working for like 3 days, im not even 16 yet give me a break</li>
-					</ul>
-					</div>
-					<div class="col-xs-6">
-						<img class="kumon img-responsive" src="images/kumon.png">
-					</div>
-				</div>
-				</div>
-					<br><br><br>
-				
-				
-				<div class="row">
-					<div class="wow fadeIn" data-wow-duration="1s">
-					<div class="col-xs-6">
-						<img class="chinese img-responsive" src="images/violin.jpg">
-					</div>
-				
-					<div class="col-xs-6">
-					<ul><strong>Teacher's Assistant for Chinese School</strong>
-						<li>From 2014 to Present</li>
-						<li>Have taught Violin, Kindergarten, First Grade</li>
-						<li>Been requested again by the teacher every year I've TA'd</li>
-						<li>Teach the youngest grades, which are only given to 
-							the most organized, responsible, and quick-thinking TAs.</li>
-					</ul>
-					</div></div>
-				</div>
-				</div>
-				</div>
-				<br><br><br>
-
-		<div class="skill-container" id="skills">
-			<br>
-			<br>
-			<br>
-			<br>
-			<div class="container">
-				<h1>Skillset</h1>
-				<center>
-				<img src="images/progress.jpg" width="400px" height="auto">
-			</center>
-			<br>
-			<br><br>
-			<br>
-			<br>
-			</div>
-		</div>
--->
-		<div class="activities-container" id="portfolio">
-			<br>
-			<br>
-			<br>
-			<br>
-			<div class="container">
-				<h1>Portfolio</h1>
-				<br><br><br>
-					<div class="wow fadeIn" data-wow-duration="1s">
-					<div class="row exCon">
-						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-					
-				<a href="//www.hackuc.com"><img class="img-responsive hack" src="images/fixed.png" width="100%"></a>
-					
-					
-						</div>
-						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-				
-					<h5 class="hacktext">
-						<br>
-						<br>
-						<br>
-						<br>
-						I can create responsive (viewable on any screen size), clean, and interactive code with good SEO (shows up high on Google Search). This works well for blogs, online porfolios/resumes, and informative web pages. 
-						<br>
-						<br>
-					</h5>
-						</div>
-					</div>
-			<br><br><br><br>
-				
-					
-					
-				
-				
-				<br><br>
-			</div>
-				</div>
-			
-			
-
-
-			<br><br><br><br><br>
-			<br>
-			<br>
-			<br>
-			</div>
-			</div>
-		</div>
-	
-
-		<div class="contact-container" id="contact">
-			<br>
-			<br>
-			<br>
-			<br>
-			<div class="container">
-				<div class="wow fadeIn" data-wow-duration="1s">
-				<h1>Contact Me</h1>
-
-				<br>
-				<p>I am looking for freelance work or an internship right now. <p><a href="https://anniezhou301.github.io/AnnieZhou.pdf"> <img src="images/r.png"> </a>Resume as a PDF file</p>	<br><br>If you're interested, feel free to contact me at<br><br><a href="mailto:anniezhou301@gmail.com"><img src="images/mail.png"></a>anniezhou301@gmail.com</p>
-				
-				
-				</div>
-			<br>
-			<br><br>
-			<br>
-			
-			</div>
-		</div>
-
-
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-		<script src="js/start.js"></script>
-		<script src="js/resume.js"></script>
-		<script>
-			new WOW().init();
-		</script>
-
+</body>
 </html>
