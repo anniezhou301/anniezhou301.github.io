@@ -1,18 +1,28 @@
+var home=document.getElementById('about');
+var portfolio=document.getElementById('portfolio');
+var price=document.getElementById('price');
+var contact=document.getElementById('contact'); 
+$('#abou').on('click',function(e){ // click the link
+    
+    $('#about').addClass('animated fadeInDown'); // add the animation class
 
-// retrieve the element
-element = document.getElementById("fade");
-nav = document.getElementById("nav");
-// reset the transition by...
-nav.addEventListener("click", function(e){
-  e.preventDefault;
-  
-  // -> removing the class
-  element.classList.remove("animated");
-  
-  // -> triggering reflow /* The actual magic */
-  // without this it wouldn't work. Try uncommenting the line and the transition won't be retriggered.
-  element.offsetWidth = element.offsetWidth;
-  
-  // -> and re-adding the class
-  element.classList.add("animated");
-}, false);
+        // do something after 1000ms (or same as animation duration)
+});
+$('#portfoli').on('click',function(e){ // click the link
+    
+    $('#portfolio').addClass('animated fadeInDown'); // add the animation class
+
+        // do something after 1000ms (or same as animation duration)
+});
+$('#pric').on('click',function(e){ // click the link
+    
+    $('#price').addClass('animated fadeInDown'); // add the animation class
+
+        // do something after 1000ms (or same as animation duration)
+});
+$('#contac').on('click',function(e){ // click the link
+    
+    $('#contact').addClass('animated fadeInDown'); // add the animation class
+
+        // do something after 1000ms (or same as animation duration)
+});
