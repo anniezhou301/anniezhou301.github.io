@@ -30,6 +30,19 @@
 
 		</script>
 		<script>
+	
+	function myFunction() {
+    document.getElementById("portfolio").className += ' animated fadeInDown';
+
+	function myFunction2() {
+    document.getElementById("price").className += ' animated fadeInDown';
+
+	function myFunction3() {
+    document.getElementById("contact").className += ' animated fadeInDown';
+};
+
+		</script>
+		<script>
 
 		$(document).ready(function(){
 			$('label').click(function(){
@@ -119,10 +132,10 @@
 	    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       
 			    <ul class="nav navbar-nav navbar-center">
-        		<li id="abou" ><a href="#about">About</a></li>
-    	   		<li id="porfoli"><a href="#portfolio" >Portfolio</a></li>
-		       	<li id="pric"><a href="#price">Get a Price</a></li>	   		
-    	   		<li id="contac"><a href="#contact">Contact</a></li>
+        		<li><a href="#about">About</a></li>
+    	   		<li onclick="myFunction()"><a href="#portfolio" >Portfolio</a></li>
+		       	<li onclick="myFunction2()"><a href="#price">Get a Price</a></li>	   		
+    	   		<li onclick="myFunction3()"><a href="#contact">Contact</a></li>
       
     	  		</ul>
     		</div>
