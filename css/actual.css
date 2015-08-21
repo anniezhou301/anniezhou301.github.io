@@ -62,9 +62,9 @@ p{
   font-size: 30px;
 }
 .site{
-  opacity: 0.6;
-  width: 200px;
-  height:auto;
+  opacity: 0.4;
+  width: 100px;
+  height:70px;
 }
 .site:hover{
   opacity:1.0;
