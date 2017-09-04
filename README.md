@@ -1,2 +1,2 @@
-# anniezhou301.github.io
+# imanniez.com
 My personal site
